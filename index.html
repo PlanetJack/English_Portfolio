@@ -15,9 +15,10 @@
    <!-- OG (Open Graph Data) -->
    <meta property="og:title" content="Jack's Portfolio"/>
    <meta property="og:type" content="website" />
+   <!--
    <meta property="og:url" content="배포후 생성된 URL"/>
    <meta property="og:image" content="배포후 생성된 이미지 URL" />
-
+-->
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,19 +33,17 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- JavaScript -->
-   <script type="module" src="src/main.js" defer></script>
-   <script type="module" src="src/projects.js" defer></script>
    <script type="module" src="src/active_menu.js" defer></script>
+   <script type="module" src="src/main.js" defer></script>
+   <script type="module" src="src/project.js" defer></script>
    <script type="module" src="src/type.js" defer></script>
-
-
 </head>
 <body>
     <!-- Header -->
     <header class="header">
         <div class="header__logo">
             <img class="header__logo__img" src="images/favicon_circle.ico" alt="logo"/>
-            <h1><a href="#">Jack</a></h1>
+            <h1><a href="#">Jack Kim</a></h1>
         </div>
         <nav class="header__nav">
            <ul class="header__menu">
@@ -310,7 +309,7 @@
             <ul class="projects">
                 <!-- Warehouse Automation Project -->
                 <li class="project" data-type="Team-Project">
-                    <a href="" target="_blank">
+                    <a href="edit_later" target="_blank">
                         <img src="images/projects/Automation_Warehouse.png" alt="Warehouse_Automation_Project" class="project__image"/>
                         <div class="project__metadata">
                             <h3 class="project__title">Warehouse Automation Project</h3>
