@@ -53,7 +53,7 @@
     box-sizing: border-box
 }
 
-/* 화면을 부드럽게 올라가고 내려가게 하는 방법 */
+/* smooth monitoring */
 html {
     scroll-behavior: smooth;
 }
@@ -530,6 +530,9 @@ button:focus {
 
 .project__image {
     width: 90%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .project__metadata {
