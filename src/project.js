@@ -4,6 +4,7 @@
 const categories = document.querySelector('.categories');
 const projects = document.querySelectorAll('.project');
 const projectsContainer = document.querySelector('.projects');
+
 categories.addEventListener('click', (event) => {
     const filter = event.target.dataset.category;
 
